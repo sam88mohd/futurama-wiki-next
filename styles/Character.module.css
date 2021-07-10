@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3em;
+}
+
+.card {
+  padding: 1em;
+  border: 1px solid blueviolet;
+  border-radius: 20px;
+}
+
+.card img {
+  /* background-color: brown; */
+  width: 100%;
+}
+
+.button {
+  width: max-content;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px;
+  border: 5px solid blueviolet;
+}
+
+.button:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(24, 24, 110, 1) 43%,
+    rgba(23, 31, 115, 1) 60%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(24, 24, 110, 1) 43%,
+    rgba(23, 31, 115, 1) 60%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: aliceblue;
+}
